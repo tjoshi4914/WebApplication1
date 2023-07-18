@@ -10,9 +10,11 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <form id="form1" runat="server">
-        <h1 style="margin:200px 100px"><stong>Forget Password?</stong></h1>
-
+    <form id="form1" runat="server" style="margin:150px 35%">
+        <h1 style="color:chocolate"><stong>Forget Password?</stong></h1>
+        <asp:Label ID="email" runat="server" Text="Enter the Registered email" Font-Size="Medium"></asp:Label>
+        <br/>
+        <div><asp:Button ID="Button1" runat="server" Text="Submit" CssClass=""/></div>
     </form>
 </body>
 </html>

@@ -19,9 +19,10 @@ namespace WebApplication1
 
         protected void buttonsubmit_Click(object sender, EventArgs e)
         {
-            btnC.Text = "SUBMITTED";
+            string cs = System.Configuration.ConfigurationManager.ConnectionStrings["myconn"].ConnectionString;
+            ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "alertMessage", "alert('Record Inserted Successfully')", true);
         }
 
-        
+
     }
 }

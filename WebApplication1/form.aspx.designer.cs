@@ -78,22 +78,40 @@ namespace WebApplication1
         protected global::System.Web.UI.WebControls.TextBox temail;
 
         /// <summary>
-        /// remail control.
+        /// password control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label remail;
+        protected global::System.Web.UI.WebControls.Label password;
 
         /// <summary>
-        /// tremail control.
+        /// tpass control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tremail;
+        protected global::System.Web.UI.WebControls.TextBox tpass;
+
+        /// <summary>
+        /// cpass control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label cpass;
+
+        /// <summary>
+        /// tcpass control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox tcpass;
 
         /// <summary>
         /// contact control.
@@ -202,14 +220,5 @@ namespace WebApplication1
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.HyperLink Link1;
-
-        /// <summary>
-        /// btnC control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label btnC;
     }
 }
